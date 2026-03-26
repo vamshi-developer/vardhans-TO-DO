@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0E411E272F67AC5600842FEA /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E411E262F67AC4D00842FEA /* Task.swift */; };
+		0E411E292F67AC9000842FEA /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E411E282F67AC8B00842FEA /* TaskManager.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		0E234F182F626313003AD718 /* Vardhan's TO DO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vardhan's TO DO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E411E262F67AC4D00842FEA /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		0E411E282F67AC8B00842FEA /* TaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -34,6 +41,8 @@
 			children = (
 				0E234F1A2F626313003AD718 /* Vardhan's TO DO */,
 				0E234F192F626313003AD718 /* Products */,
+				0E411E262F67AC4D00842FEA /* Task.swift */,
+				0E411E282F67AC8B00842FEA /* TaskManager.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E411E272F67AC5600842FEA /* Task.swift in Sources */,
+				0E411E292F67AC9000842FEA /* TaskManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
